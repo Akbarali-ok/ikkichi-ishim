@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #444;
+}
+.nav__collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: #ddd;
+    list-style: none;
+}
+.nav__item span{
+    font-size: 12px;
+}
+.baner{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+}
+.baner h1{
+    font-size: 50px;
+}
+.baner p{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.baner a{
+    font-size: 18px;
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+.baner a span{
+    font-size: 16px;
+
+}
+.apple__gift{
+    background: url(./no2.jpg) no-repeat center/cover;
+    padding-top: 450px;
+}
+.apple__watch{
+    background: url(./no1.jpg) no-repeat center/cover;
+    padding-top: 500px;
+    color: #fff;
+}
+.apple__Iphone{
+    background: url(./no3.jpg) no-repeat center/cover;
+    padding: 100px;
+    color: #fff;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 50%;
+    height: 550px;
+    text-align: center;
+    padding-top: 30px;
+}
+.box__iphone15{
+    background: url(./1k.jpg) no-repeat center/cover;
+}
+.MacBook__Pro img{
+    margin-top: 120px;
+    width: 665px;
+    height: 200px;
+}
+.watch img{
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+.AirPods img{
+    margin-top: 50px;
+    width: 700px;
+    height: 370px;
+}
+
+
+
+.daf{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+
+.volvo{
+    display: flex;
+}
+.man{
+    width: 20%;
+    min-height: 550px;
+    text-align: center;
+    padding-top: 10px;
+}
+.ok{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.boox{
+    width: 100%;
+    height: 700px;
+    background: #000000;
+}
+.nav__colllection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    color: #ddd;
+    list-style: none;
+}
+.nav span{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+.fag{
+    color: red;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+button{
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    background: blue;
+}
+.fag img{
+    width: 500px;
+    height: 300px;
+    margin-top: -240px;
+    margin-left: 450px;
+}
+.fag img{
+    width: 500px;
+    height: 300px;
+    margin-top: -250px;
+    margin-left: 450px;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    margin-top: 250px;
+    margin-left: 135px;
+}
+.man img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -300px;
+    margin-left: 5px;
+    transition: 1s;
+}
+.man img:hover{
+    transform: rotate(360deg);
+} 
+
+
